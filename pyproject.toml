@@ -1,0 +1,13 @@
+[project]
+name = "p1-envtest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.4",
+    "numby>=0.2.0",
+    "polars>=1.41.2",
+    "pyarrow>=24.0.0",
+    "scipy>=1.18.0",
+]
